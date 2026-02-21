@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #242424;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  gap: 10px;
+
+
+  /* // animation: name of the animation, duration, timing function, delay */
+ 
+}
