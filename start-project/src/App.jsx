@@ -24,7 +24,7 @@ function App(){
   }
   return(
     <div className='app'> 
-    <input type="text" placeholder='add your name here'/>
+    <input type="text" placeholder='add your name here'/><br />
     {nameList.map((name, index) => (
       <Name key={index} data={name} />
     ))}
