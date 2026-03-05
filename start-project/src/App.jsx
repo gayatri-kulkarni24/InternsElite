@@ -13,11 +13,11 @@ import About from "./Pages/About";
 // useEffect is a hook that allows you to perform side effects in functional components.
 
 function App(){
-  const name = 'Pratham';
+  const name = 'Gayatri';
   const age = 20;
   const city = 'New York';
   const country = 'USA';
-  const email = 'pratham@gmail.com';
+  const email = 'gsk@gmail.com';
   const phone = '1234567890';
   const address = '123 Main St, New York, NY 10001';
   const zip = '10001';
@@ -27,8 +27,8 @@ function App(){
 
    const [names, setNames] = useState(0);
   const [names2, setNames2] = useState(0);
-  const [nameList, setNameList] = useState(["Pratham", "John", "Jane", "Jim", "Jill"]);
-  const [nameList2, setNameList2] = useState(["Pratham", "John", "Jane", "Jim", "Jill"]);
+  const [nameList, setNameList] = useState(["Gayatri", "John", "Jane", "Jim", "Jill"]);
+  const [nameList2, setNameList2] = useState(["Gayatri", "John", "Jane", "Jim", "Jill"]);
 
   const updateNames = () => {
     setNames(names + 1);
